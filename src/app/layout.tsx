@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <nav className ="nav-section bg-white  border border-blue-600 col-span-12 row-span-2">
+      <nav className ="nav-section bg-white border border-blue-600 col-span-12 row-span-2">
         <h2 className="menu flex  flex-wrap  justify-between ">
           <div className="flex justify-start items-center m-3">
             <img src="/dollarlogo.jpg " alt="Photo"  height = {70} width={70}  />
@@ -46,7 +46,7 @@ export default function RootLayout({
 
           <div className="md:flex hidden justify-end  text-white text-xl bg-blue-300 rounded-full items-center py-0.5 px-1 gap-10 mx-5 my-3 font-bold ">
           <Link href={"/"}>
-            <button className="border-spacing-3 p-1 rounded-full bg-blue-800 "> Home </button>
+            <button className="border-spacing-3 p-1 rounded-full bg-blue-800"> Home </button>
           </Link>           
 
           <Link href={"/Charts"}>
@@ -68,13 +68,13 @@ export default function RootLayout({
               <SheetHeader>
               <ul className='text-lg font-medium gap-x-4'>
                               <li>
-                                <Link href={"/app"}>Home </Link>
+                                <Link href={"/"}>Home </Link>
                               </li>
                               <li>
-                                <Link href={"/src/app/About"}>About</Link>
+                                <Link href={"/About"}>About</Link>
                               </li>
                               <li>
-                                <Link href={"/src/app/Charts"}>Charts</Link>
+                                <Link href={"/Charts"}>Charts</Link>
                               </li>
                               
                             </ul>
