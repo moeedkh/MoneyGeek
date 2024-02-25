@@ -40,7 +40,7 @@ export default function RootLayout({
       <nav className ="nav-section bg-white border border-blue-600 col-span-12 row-span-2">
         <h2 className="menu flex  flex-wrap  justify-between ">
           <div className="flex justify-start items-center m-3">
-            <img src="/dollarlogo.jpg " alt="Photo"  height = {70} width={70}  />
+            <img src="/dollarlogo.JPG " alt="Photo"  height = {70} width={70}  />
             <a className="  first-line:text-3xl font-bol mx-3 p-3 font-bold items-centre"> Market Geek <br/> Scan, invest and repeat...</a>
           </div>
 
